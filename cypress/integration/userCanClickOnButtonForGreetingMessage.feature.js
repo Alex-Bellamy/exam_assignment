@@ -4,4 +4,8 @@ describe('user can click on button', () => {
         cy.contains("Greetings")
         cy.get("#quote").click()
     })
+
+    it('displays a message', () => {
+        cy.get("#message").should("contain", "hello how are you")
+    })
 })
