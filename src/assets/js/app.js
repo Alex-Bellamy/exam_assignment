@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     let message = document.getElementById("message");
   
     showMeAQuote = () => {
-      message.innerHTML = "hello how are you";
+      message.innerHTML = "Hello, how are you?";
     };
     button.addEventListener("click", showMeAQuote);
   });

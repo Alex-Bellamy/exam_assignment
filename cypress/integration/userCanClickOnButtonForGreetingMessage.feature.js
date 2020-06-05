@@ -6,6 +6,6 @@ describe('user can click on button', () => {
     })
 
     it('displays a message', () => {
-        cy.get("#message").should("contain", "hello how are you")
+        cy.get("#message").should("contain", "Hello, how are you?")
     })
 })
